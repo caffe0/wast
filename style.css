@@ -1,0 +1,131 @@
+*{
+    font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#menu{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    
+}
+.menuzin{
+    display: flex;
+    width: 50%;
+    height: 10vh;
+    left: 2%;
+    justify-content:left;
+    align-items: center;
+
+}
+#home{
+    padding: 2px;
+    margin-left: 2%;
+    background-color: white;
+    width: 100px;
+    height: 50%;
+    font-size:250%;
+    text-align: center;
+    transition: .2s;
+}
+
+#home:hover{
+    cursor: pointer;
+    padding: 4px;
+    width: 120px;
+    height: 60%;
+    font-size: 265%;
+    margin-left: 1.5%;
+}
+
+.opcoes{
+    display: inline-block;
+    text-align: right;
+    padding-top: 30px;
+    width: 50%;
+    height: 10vh;
+    right: 2%;
+}
+.falecomigo{
+    margin: 25px;
+    color: white;
+    width: 20px;
+    transition: .2s;
+
+
+}
+
+a.falecomigo:hover{
+    cursor: pointer;
+    color: yellow;
+    font-size: 17px;
+    margin: 35px;
+}
+
+#meio{
+    height: 120vh;
+    background-image: url('wallp3.jpg');
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+.avatar{
+    width: 8%;
+    border-radius: 50%;
+}
+.titulo{
+    font-size: 45px;
+    font-weight: bolder;
+    color: purple;
+    text-shadow: black 20px;
+    text-decoration-color: white;
+}
+.infos{
+    display: flex;
+    height: 60vh;
+}
+.highl{
+    margin-top: 5%;
+    border: 2px solid black;
+    background-color: rgb(36, 36, 36);
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 20px;
+    
+}
+.high{
+    padding: 1%;
+    color: white;
+}
+.salve{
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column;
+    margin-right: 2%;
+    margin-top: 10%;
+    background-color: blueviolet;
+    background-blend-mode: color-dodge;
+    height: 30vh;
+    text-align: center;
+}
